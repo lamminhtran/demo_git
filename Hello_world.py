@@ -9,4 +9,4 @@ ascii_banner = pyfiglet.figlet_format("Hello World!")
 for char in ascii_banner:
     sys.stdout.write(char)
     sys.stdout.flush()
-    time.sleep(0.002)  # chỉnh tốc độ (giảm số nhỏ để nhanh hơn)
+    time.sleep(0.002)
